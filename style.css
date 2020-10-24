@@ -1,0 +1,119 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #bac5db;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.newsletter {
+    background-color: #353a45;
+    border-radius: 24px;
+    box-shadow: 0 26px 49px rgba(35, 70, 133, 0.28);
+    padding: 83px 60px 64px 60px;
+    text-align: center;
+    position: relative;
+}
+
+.mail-icon {
+    position: absolute;
+    background-image: linear-gradient(59deg, #47aae6 0%, #9372bf 100%);
+    height: 92px;
+    width: 92px;
+    border-radius: 50%;
+    top: -45px;
+    left: 293px;
+    box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.13);
+}
+
+.mail-icon::after {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    z-index: 2;
+}
+
+.mail-icon i {
+    position: absolute;
+    top: 30px;
+    left: 29px;
+    font-family: "FontAwesome";
+    color: #ffffff;
+    content: "\f0e0";
+    font-size: 33px;
+    font-style: normal;
+}
+
+.Exit-button i{
+    position: absolute;
+    font-family: "FontAwesome";
+    content: "f057";
+    font-size: 35px;
+    font-style: normal;
+    color: #4d5975;
+    top: 9px;
+    right: 12px;
+    z-index: 2;
+}
+
+h3 {
+    color: #538fff;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 31px;
+    margin-bottom: 0px;
+}
+
+p.bottom {
+    color: #787d87;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: normal;
+    margin-top: 37px; 
+}
+
+input[type="email"] {
+    width: 371px;
+    height: 52px;
+    margin: 40px 18px 0px 0px;
+    padding-left: 18px;
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: 0px solid #c4c4c4;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    width: 161px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #538fff;
+    border: none;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    
+}
